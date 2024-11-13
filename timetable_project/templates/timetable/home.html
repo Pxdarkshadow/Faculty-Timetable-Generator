@@ -1,0 +1,16 @@
+{% extends 'timetable/base.html' %}
+
+{% block content %}
+<div class="jumbotron">
+    <h1 class="display-4"><b>Welcome to Timetable Management System</b></h1>
+    <p class="lead">Manage your teaching schedule efficiently</p>
+    <hr class="my-4">
+    <p>Get started by adding teachers, subjects, and time slots.</p>
+    <div class="btn-group">
+        <a href="{% url 'add_teacher' %}" class="btn btn-primary">Add Teacher</a>
+        <a href="{% url 'add_subject' %}" class="btn btn-success">Add Subject</a>
+        <a href="{% url 'add_timeslot' %}" class="btn btn-info">Add Time Slot</a>
+        <a href="{% url 'timetable_view' %}" class="btn btn-warning">View Timetable</a>
+    </div>
+</div>
+{% endblock %}
