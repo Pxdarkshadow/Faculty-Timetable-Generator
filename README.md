@@ -26,34 +26,40 @@ Prerequisites
 
 # Step-by-Step Guide
 1. Clone the Repository:
-    bash/cmd
+    ```bash/cmd
     git clone https://github.com/Pxdarkshadow/faculty-timetable-generator.git
     cd faculty-timetable-generator
+   ```
 
-2. Create and Activate a Virtual Environment:
-    bash/cmd
+3. Create and Activate a Virtual Environment:
+    ```bash/cmd
     python -m venv venv
     venv\Scripts\activate
+    ```
 
-3. Install Dependencies:
-    bash/cmd
+4. Install Dependencies:
+    ```bash/cmd
     pip install -r requirements.txt
+    ```
 
-4. Apply Migrations:
-    bash/cmd
+5. Apply Migrations:
+    ```bash/cmd
     python manage.py makemigrations
     python manage.py migrate
+    ```
 
-5. Create a Superuser:
-    bash/cmd
+6. Create a Superuser:
+    ```bash/cmd
     python manage.py createsuperuser
+    ```
     then enter your details accordingly
 
-6. Run the Development Server:
-    bash
+7. Run the Development Server:
+    ```bash
     python manage.py runserver
+    ```
 
-7. Access the Application:
+8. Access the Application:
    - Open your browser and copy the link in bash/cmd
 
 # Usage
