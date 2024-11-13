@@ -1,4 +1,4 @@
-Faculty Timetable Generator
+### Faculty Timetable Generator ###
 
 Overview
 The Faculty Timetable Generator is a Django-based web application designed to streamline the process of creating, managing, and distributing faculty schedules in educational institutions. It allows administrators to efficiently generate, customize, and manage weekly timetables for faculty members, ensuring optimal use of resources and reducing scheduling conflicts.
